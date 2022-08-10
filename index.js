@@ -547,7 +547,7 @@ const isBanchat = isGroup ? bancht.includes(from) : false
 
 
 
-//==========(VERIFICADO)===============\\
+/*//==========(VERIFICADO)===============\\
 
 
 var blalogoofc = getBuffer(`${logo}`)
@@ -555,7 +555,7 @@ var blalogoofc = getBuffer(`${logo}`)
 
 var selo = { key: {fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": `${NomeDoBot}`, 'jpegThumbnail': blalogoofc}}}
 
-//=====================================\\
+//=====================================\\*/
 
 const reply = (texto) => {
 conn.sendMessage(from, { text: texto }, {quoted: info}).catch(e => {
